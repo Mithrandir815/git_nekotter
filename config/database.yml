@@ -7,7 +7,7 @@ default: &default
   socket: /var/run/mysqld/mysqld.sock
 
 development:
-  adapter: mysql12
+  adapter: mysql2
   encoding: utf8
   database: c9
   username: <%=ENV['C9_USER']%>
